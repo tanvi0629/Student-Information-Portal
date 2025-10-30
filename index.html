@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STUDENT INFORMATION PORTAL</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1> Student Information Portal</h1>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Add Student Details</h2>
+      <form id="studentForm">
+        <div class="form-row">
+          <input type="text" id="studentName" placeholder="Full Name" required />
+          <input type="text" id="studentID" placeholder="Enrollment number" required />
+        </div>
+        <div class="form-row">
+          <input type="email" id="studentCollegeEmail" placeholder="Email" required />
+          <input type="text" id="studentCourse" placeholder="Course" required />
+        </div>
+        <button type="submit">Add Student</button>
+      </form>
+    </section>
+
+    <section class="list-section">
+      <h2>Student List</h2>
+      <table id="studentTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Course</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          more Information
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
